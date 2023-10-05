@@ -23,7 +23,7 @@ function preload() {
 
 function setup() {
   
-  createCanvas(800, 800);
+  createCanvas(770, 500);
 
   colorMode(HSB, 450, 20, 100, 100);
 
@@ -335,7 +335,7 @@ function keyPressed() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(770,500);
 
   }
 
